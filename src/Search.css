@@ -1,0 +1,41 @@
+/* SearchCss.css */
+
+.search-bar {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+}
+
+.search-bar button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 750px) {
+  .search-bar {
+    top: 5%;
+  }
+
+  .search-bar input {
+    width: 70%;
+  }
+
+  .search-bar button {
+    width: 25%;
+  }
+}

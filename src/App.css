@@ -1,0 +1,24 @@
+/* Update your App.css */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* Set a background color to match your page background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Adjust the transition duration as needed */
+}
+
+.preloader.visible {
+  opacity: 1;
+}
+
+.logo-animation {
+  /* Add any styles for your logo animation */
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
